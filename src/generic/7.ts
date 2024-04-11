@@ -1,12 +1,3 @@
-class Component<T> {
-  constructor(public props: T) {}
-}
-
-class Page extends Component<{ title: string }> {
-  pageInfo() {
-    console.log(this.props.title);
-  }
-}
 /*
   У вас є перелік UserRole, який використовується для класифікації користувачів у вашому додатку.
   Ви хочете створити об'єкт RoleDescription, який зіставлятиме кожну роль користувача з її описом.
